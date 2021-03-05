@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="filter">
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="Logo" />
         <Subscribe />
       </div>
     </div>
