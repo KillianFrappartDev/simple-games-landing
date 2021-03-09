@@ -1,0 +1,38 @@
+.thanks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thanks-box {
+    display: flex;
+    align-items: center;
+    background-color: #4caf50;
+    border-radius: 8px;
+    width: 450px;
+    height: 60px;
+  }
+
+  .thanks-text {
+      color: #E0E0E0;
+      font-size: 1.2rem;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .thanks-box {
+      width: 400px;
+      height: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .thanks-container {
+      width: 90%;
+    }
+  
+    .thanks-box {
+      width: 100%;
+      height: 50px;
+    }
+  }
+  

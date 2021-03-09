@@ -2,13 +2,13 @@ import { IoMdMail } from 'react-icons/io';
 
 import './styles.css';
 
-const Subscribe = () => {
+const Subscribe = (props) => {
   return (
     <div className="subscribe-container">
       {/* <h2 className="subscribe-title">Stay tuned</h2> */}
       <div className="subscribe-box">
           <input className="subscribe-input" placeholder="Write your email here...." />
-          <button className="subscribe-send"><IoMdMail color="#E0E0E0" size="2rem"/></button>
+          <div className="subscribe-send" onClick={props.onSub}><IoMdMail className="subscribe-icon" size="2rem"/></div>
       </div>
     </div>
   );

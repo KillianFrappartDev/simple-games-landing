@@ -32,13 +32,31 @@
 }
 
 .subscribe-send {
-  width: 70px;
+  width: 64px;
   background: rgb(81, 0, 232);
   background: linear-gradient(90deg, rgba(81, 0, 232, 1) 0%, rgba(126, 64, 242, 1) 100%);
   border: none;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border: 1px solid rgb(81, 0, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-send:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.subscribe-icon {
+  padding: 1rem;
+  color: #E0E0E0;
+}
+
+.subscribe-icon:hover {
+  color: rgb(81, 0, 232);
 }
 
 @media screen and (max-width: 950px) {
@@ -54,7 +72,7 @@
 
 @media screen and (max-width: 400px) {
   .subscribe-container {
-    width: 95%;
+    width: 90%;
   }
 
   .subscribe-box {
