@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import Subscribe from "./components/Subscribe/index";
 import Thanks from "./components/Thanks/index";
 import logo from './assets/sg-white.png';
